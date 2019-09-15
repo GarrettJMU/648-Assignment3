@@ -1,0 +1,100 @@
+body {
+    width: 960px;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+a {
+    color: #cc1c0d;
+}
+
+.navigation {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+h2 {
+    color: #cc1c0d;
+    background-color: #dfe3e6;
+    border: 2px solid #929CA4;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+/*Home page*/
+.vprospect-home, .vretain-home, .vconvert-home {
+    float: left;
+}
+
+/*Solution page*/
+#vprospect, #vretain, #vconvert {
+    font-weight: bold;
+}
+
+.solution-subsection {
+    display: flex;
+}
+
+/*About us page*/
+.managers img {
+    border-radius: 40%;
+    border: 1px solid #CC1C0D;
+}
+
+.managers img {
+    margin-right: 10px;
+    float: left;
+}
+
+
+/*Pricing page*/
+
+.pricing-subsection h3:first-child {
+    border-top: 5px solid #000000;
+}
+
+.pricing-subsection, .vprospect h3 {
+    border-top: 5px solid #CC1C0D;
+}
+
+.pricing-subsection, .vconvert h3 {
+    border-top: 5px solid #37A4A4;
+}
+
+.pricing-subsection, .vretain h3 {
+    border-top: 5px solid #685288;
+}
+
+.pricing-subsection h3:first-child {
+    margin-top: 20px
+}
+
+.pricing {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 230px 230px 230px 230px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.pricing-subsection {
+    border-radius: 25px;
+    border: 2px solid lightgrey;
+    padding-top: 10px;
+}
+
+.pricing-subsection:last-child {
+    padding-top: 20px;
+}
+
+
